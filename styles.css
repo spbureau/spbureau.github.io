@@ -1,4 +1,4 @@
-* {
+body {
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16;
@@ -46,3 +46,22 @@ button {
   border-radius: 20px 20px 20px 20px;
   background-color: green;
 }
+
+footer {
+  background-color: midnightblue;
+  color: gray;
+  margin: -10px;
+  text-align: left;
+  padding: 10px;
+}
+
+#footer-hd {
+  color: white;
+  text-decoration: none;
+}
+/*
+#footer-ql, #footer-hd {
+  text-align: left;
+}
+
+*/
