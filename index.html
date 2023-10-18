@@ -4,13 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Internal Styles -->
   <link href="styles.css" rel="stylesheet"/>
-  <!-- W3 Css Lib -->
+  <script src="scripts.js"></script>
+  <!-- External Styles and Libs-->
   <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bb0b7468de.js" crossorigin="anonymous"></script>
   
   <title>Simon S. Peters - Home</title>
 </head>
-
+<!-- 
 <body class="w3-container w3-black" id="home-bg">
   <img src="assets/images/img_la-w3s.jpg" style="width: 100%" alt="Banner LA" />
   
@@ -22,9 +27,65 @@
     <a href="projects.html"><span>Projects</span></a>
     <a href="w3css.html"><span>W3 CSS</span></a>
   </div>
+  -->
   <!--
   <img src="assets/images/fb_naa_1.jpg" alt="Naa Ash..." />
   -->
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()" style="text-align: left">Exit <i class="fa-solid fa-close"></i></button>
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="about.html" class="w3-bar-item w3-button">About Simon</a>
+      <a href="services.html" class="w3-bar-item w3-button">Services</a>
+      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="#" class="w3-bar-item w3-button">Connect</a>
+      
+      
+    </div>
+
+    <div class="w3-main" style="margin-left:1px">
+      <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xxlarge w3-hide-large" onclick="w3_open()">&#9776; <span>SP Bureau</span></button>
+    </div>
+  <main>
+    <!-- Start Content -->
+    <div id="home" class="w3-content">
+
+      <!-- Image -->
+      <img src="/assets/images/img_la-w3s.jpg" alt="The Band" style="width:100%">
+      <!-- End Content -->
+    </div>
+    <!-- Projects Highlights-->
+  <div id="projects" class="w3-container w3-padding-18">
+    <div class="w3-row w3-center">
+
+    <div class="w3-third">
+      <img src="/assets/images/westmire.jpg" alt="Westmire" style="width:100%">
+      <p class="projects">Westmire</p>
+    </div>
+
+    <div class="w3-third">
+      <img src="/assets/images/s_laptop-coding.jpg" alt="Development" style="width:100%">
+      <p class="projects">Developers Hub</p>
+    </div>
+    <div class="w3-third">
+      <img src="/assets/images/s_power-plant.jpg" alt="Innovation" style="width:100%">
+      <p class="projects">Business and Innovations</p>
+    </div>
+    <a href="projects.html"><h3>See more projects»</h3></a></a>
+    <button onclick="/services.html">See more projects»</button>
+   </div>
+  </div>
+  </main>
+  <!-- Scripts -->
+  <footer>
+    <div class="socials">
+      <h3>Quick Links</h3>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-github"></i>
+      <i class="fa fa-telegram"></i>
+    </div>
+  </footer>
 </body>
 
 </html>

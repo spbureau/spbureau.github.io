@@ -10,17 +10,18 @@ p, span {
 }
 
 body {
-text-align: center;
+/*text-align: center; */
 font-family: "Arial", Helvetica, sans-serif;
 font-size: 16;
 margin: -10px;
 }
 
+
 p {
   font-size: 20px;
 }
 
-#welc_img {
+#welc_img, .photo-about {
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -95,4 +96,10 @@ footer {
 
 div {
   margin: 0px;
+}
+
+#about {
+  text-align: center;
+  color: green;
+  font-size: 20px;
 }

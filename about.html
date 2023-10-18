@@ -4,17 +4,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- W3 CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!-- My Styles -->
   <link src="styles.css" rel="stylesheet">
+    
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" sizes="any">
     <link rel="favicon" href="/assets/images/icon-maskable.png">
     <!-- Font Awesome Icons Kit Link -->
     <script src="https://kit.fontawesome.com/bb0b7468de.js" crossorigin="anonymous"></script>
+    <style></style>
 </head>
+<!-- Main Body -->
+<body id="about-body">
+  <!-- Navigation (Stays on Top) -->
+  <div class="w3-top w3-bar w3-black">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="about.html" class="w3-bar-item w3-button">About</a>
+  <a href="services.html" class="w3-bar-item w3-button">Services</a>
+  <a href="projects html" class="w3-bar-item w3-button">Projects</a>
+  </div>
 
-<body>
- <h2>My Podcasts</h2>
+
+  <!-- Start Content -->
+  <div id="home" class="w3-content">
+ 
+  
+  <h2>About Simon</h2>
+  
+  <div class="photo-about" style="width:200px">
+    <img src="assets/images/sp.jpg" style="width:150%; border-radius: 50px">
+    
+    <span class="">Simon S. Peters</span>
+    <p>Business Analyst, Software Developer</p>
+  </div>
+  
+  <!-- About -->
+  <div id="about" class="w3-container w3-padding-12">
+    <h1 class="w3-center">Hello there!👋</h1>
+    <div class="w3-container w3-teal w3-border w3-border w3-border-white w3-round-xlarge about-card" style="text-align: justify; font-size: 20px">
+      <!-- Para 1 -->
+      <p>I'm passionate about exploring the ever-evolving world of technology and using it to get things done efficiently. When I'm not immersed in code or analytics, you'll find me spending quality time with friends and loved ones, cherishing those precious moments.</p>
+      <!-- Para 2 -->
+      <p>My journey is focused on building a career in the dynamic fields of mobile app and web development, as well as business analytics among other IT-related roles. I believe that the intersection of technology and business is where innovation thrives, and I'm excited to be a part of this exciting journey.</p>
+    </div>
+  </div>
+  <br/>
+  <!-- What i do -->
+  <div id="whatido" class="w3-container w3-padding-5 w3-leftbar w3-border-blue">
+    <h2>What I Do</h2>
+    <h4 class="w3-container w3-blue">From fully customized personal portfolio sites, blogs to ecommerce websites, to mobile apps of any kind.</h4>
+    <!-- highlights -->
+    <h3>See Highlights below...</h3>
+  </div>
+  <!-- Projects Highlights-->
+  <div id="projects" class="w3-container w3-padding-18">
+    <div class="w3-row w3-center">
+
+    <div class="w3-third">
+      <img src="/assets/images/westmire.jpg" alt="Westmire" style="width:100%">
+      <p class="projects">Westmire</p>
+    </div>
+
+    <div class="w3-third">
+      <img src="/assets/images/s_laptop-coding.jpg" alt="Development" style="width:100%">
+      <p class="projects">Developers Hub</p>
+    </div>
+
+    <div class="w3-third">
+      <img src="/assets/images/s_power-plant.jpg" alt="Innovation" style="width:100%">
+      <p class="projects">Business and Innovations</p>
+    </div>
+    <a href="projects.html"><h3>See more projects»</h3></a></a>
+    <button onclick="/services.html">See more projects»</button>
+   </div>
+  </div>
+  
+  <!-- Contact -->
+  <div id="contact" class="w3-container w3-center w3-padding-32">
+    <h3 class="w3-wide w3-border-left w3-border-green">Leave a message?</h3>
+    <p class="w3-opacity w3-center"><i>Use form below.</i></p>
+    
+    <!-- contact form -->
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input" type="text" placeholder="Type message" required name="Message">
+      <br>
+      <button class="w3-button w3-black" type="submit">SEND MESSAGE</button>
+    </form>
+
+  </div>
+  
+  <h2>My Podcasts</h2>
     <div>
       <a href="https://podcasts.google.com/fee""""d/aHR0cHM6Ly9hbmNob3IuZm0vcy9lODE0Mjk0OC9wb2RjYXN0L3Jzcw">
         <img src="https://www.gstatic.com/podcasts_console/promote/English_EN/EN_Google_Podcasts_Badge.svg" width="150" height="38" alt="Listen on Google Podcasts">
@@ -31,6 +115,7 @@
         <a href="https://github.com/spbureau"><span>GitHub</span></a>
       </ul>
     </div>
+    
     <footer>
       <i class="fa-solid fa-phone-call"></i>
       <!-- <i class=""></i> -->
@@ -38,6 +123,7 @@
       
       <i class="fa-solid fa-circle-exclamation fa-bounce fa-lg"></i><span> More  Info</span>
     </footer>
+    
 </body>
 
 </html>
