@@ -4,12 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- W3 CSS -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <!-- My Styles -->
-  <link src="styles.css" rel="stylesheet">
-    
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- My Styles -->
+   <link src="styles.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" sizes="any">
     <link rel="favicon" href="/assets/images/icon-maskable.png">
@@ -17,31 +16,33 @@
     <script src="https://kit.fontawesome.com/bb0b7468de.js" crossorigin="anonymous"></script>
     <style></style>
 </head>
+
 <!-- Main Body -->
 <body id="about-body">
   <!-- Navigation (Stays on Top) -->
-  <div class="w3-top w3-bar w3-black">
-  <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  <a href="about.html" class="w3-bar-item w3-button">About</a>
-  <a href="services.html" class="w3-bar-item w3-button">Services</a>
-  <a href="projects html" class="w3-bar-item w3-button">Projects</a>
+  <div id="about-header" class="w3-bar w3-black">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="services.html" class="w3-bar-item w3-button">Services</a>
+    <a href="projects html" class="w3-bar-item w3-button">Projects</a>
   </div>
-
 
   <!-- Start Content -->
   <div id="home" class="w3-content">
- 
-  
-  <h2>About Simon</h2>
-  
-  <div class="photo-about" style="width:200px">
-    <img src="assets/images/sp.jpg" style="width:150%; border-radius: 50px">
+    <!-- Header and Image -->
+    <div style="text-align: center">
+      <div class="w3-container w3-teal">
+        <h3>About me</h3>
+      </div>
     
-    <span class="">Simon S. Peters</span>
-    <p>Business Analyst, Software Developer</p>
-  </div>
-  
-  <!-- About -->
+      <div id="aboutme-photo" style="width: 50%">
+        <img src="assets/images/sp.jpg" style="width:100%; border-radius: 50%">
+        <span class="">Simon S. Peters</span>
+        <h3>Business Analyst, Software Developer</h3>
+      </div>
+    </.div>
+      
+    <!-- About -->
   <div id="about" class="w3-container w3-padding-12">
     <h1 class="w3-center">Hello there!👋</h1>
     <div class="w3-container w3-teal w3-border w3-border w3-border-white w3-round-xlarge about-card" style="text-align: justify; font-size: 20px">
@@ -95,7 +96,6 @@
       <br>
       <button class="w3-button w3-black" type="submit">SEND MESSAGE</button>
     </form>
-
   </div>
   
   <h2>My Podcasts</h2>
@@ -108,7 +108,7 @@
     <div>
       <h2>Follow me on Social Media</h2>
       <ul>
-        <i class="fa-solid fa-facebook fa-lg"></i><a href="https://www.facebook.com/simonpeters.sakpla"><span class="social"> Facebook</span></a>
+        <i class="fa fa-facebook fa-lg"></i><a href="https://www.facebook.com/simonpeters.sakpla"><span class="social"> Facebook</span></a>
         <a href="https://www.twitter.com/simonpetersgh"><span class="social">Twitter</span></a>
         <a href="https://www.instagram.com/simonpeters.gh"><span class="social">Instagram</span></a>
         <a href="https://www.linkedin.com/in/ssakpla"><span class="social">LinkedIn</span></a>
@@ -124,6 +124,8 @@
       <i class="fa-solid fa-circle-exclamation fa-bounce fa-lg"></i><span> More  Info</span>
     </footer>
     
+    <!--  Content ends here -->
+   </div>
 </body>
 
 </html>
