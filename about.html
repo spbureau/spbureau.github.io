@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <!-- My Styles -->
-   <link src="styles.css" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" sizes="any">
     <link rel="favicon" href="/assets/images/icon-maskable.png">
@@ -18,114 +18,145 @@
 </head>
 
 <!-- Main Body -->
-<body id="about-body">
+<div id="profile" class="profile">
   <!-- Navigation (Stays on Top) -->
-  <div id="about-header" class="w3-bar w3-black">
+  <div id="about-nav" class="w3-bar w3-black">
     <a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="about.html" class="w3-bar-item w3-button">About</a>
     <a href="services.html" class="w3-bar-item w3-button">Services</a>
-    <a href="projects html" class="w3-bar-item w3-button">Projects</a>
+    <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
   </div>
 
-  <!-- Start Content -->
-  <div id="home" class="w3-content">
+  <!-- Start Main Content -->
+  <div id="profile-body" class="w3-content">
     <!-- Header and Image -->
-    <div style="text-align: center">
+    <div style="text-align: left">
       <div class="w3-container w3-teal">
         <h3>About me</h3>
       </div>
     
-      <div id="aboutme-photo" style="width: 50%">
-        <img src="assets/images/sp.jpg" style="width:100%; border-radius: 50%">
-        <span class="">Simon S. Peters</span>
-        <h3>Business Analyst, Software Developer</h3>
+      <div id="aboutme-photo" style="width: 100%" class="w3-center">
+        <img src="assets/images/sp.jpg" style="width:50%; border-radius: 50%">
+        <h3 class="">Simon S. Peters</h3>
+        <span style="width: 50%">Business/Data Analyst, Software Developer</span>
       </div>
-    </.div>
-      
+    </div>
+      <br />
+    <!-- Row of Action buttons -->
+    <div class="w3-row w3-large w3-center">
+      <!-- btn 1 -->
+      <a href="#profile-about"><span class="c-button btn btn-about">About <i class="fa fa-vcard-o fa-beat-fade"></i></span></a>
+      <!-- btn 2 -->  
+      <a href="#profile-services"><span class="c-button btn btn-services">Services <i class="fa fa-laptop fa-beat-fade"></i></span></a>
+      <!-- btn 3 -->
+      <a href="#profile-message"><span class="c-button btn btn-message">Message <i class="fa fa-commenting-o fa-beat-fade"></i></span></a>
+    </div>
+    
+      <hr/>
     <!-- About -->
-  <div id="about" class="w3-container w3-padding-12">
-    <h1 class="w3-center">Hello there!👋</h1>
-    <div class="w3-container w3-teal w3-border w3-border w3-border-white w3-round-xlarge about-card" style="text-align: justify; font-size: 20px">
-      <!-- Para 1 -->
-      <p>I'm passionate about exploring the ever-evolving world of technology and using it to get things done efficiently. When I'm not immersed in code or analytics, you'll find me spending quality time with friends and loved ones, cherishing those precious moments.</p>
-      <!-- Para 2 -->
-      <p>My journey is focused on building a career in the dynamic fields of mobile app and web development, as well as business analytics among other IT-related roles. I believe that the intersection of technology and business is where innovation thrives, and I'm excited to be a part of this exciting journey.</p>
+    <div id="profile-about" class="w3-container w3-padding-12">
+      <h2 class="w3-center">Hello there!👋</h2>
+      <div class="w3-container w3-teal w3-border w3-border w3-border-white w3-round-xlarge about-card" style="text-align: justify; font-size: 20px">
+        <!-- Para 1 -->
+        <p>I'm passionate about exploring the ever-evolving world of technology and using it to get things done efficiently. When I'm not immersed in code or analytics, you'll find me spending quality time with friends and loved ones, cherishing those precious moments.</p>
+        <!-- Para 2 -->
+        <p>My journey is focused on building a career in the dynamic fields of mobile app and web development, as well as business analytics among other IT-related roles. I believe that the intersection of technology and business is where innovation thrives, and I'm excited to be a part of this exciting journey.</p>
+      </div>
     </div>
-  </div>
-  <br/>
-  <!-- What i do -->
-  <div id="whatido" class="w3-container w3-padding-5 w3-leftbar w3-border-blue">
-    <h2>What I Do</h2>
-    <h4 class="w3-container w3-blue">From fully customized personal portfolio sites, blogs to ecommerce websites, to mobile apps of any kind.</h4>
-    <!-- highlights -->
-    <h3>See Highlights below...</h3>
-  </div>
-  <!-- Projects Highlights-->
-  <div id="projects" class="w3-container w3-padding-18">
-    <div class="w3-row w3-center">
+      <br/>
+    <!-- What i do -->
+    <div id="profile-services" class="w3-container w3-padding-5 w3-leftbar w3-border-blue">
+        <h2>What I Do</h2>
+        <h4 class="">From fully customized personal portfolio sites, blogs to ecommerce websites, to mobile apps of any kind.</h4>
+        <!-- highlights -->
+        <h4>See Highlights below...</h4>
+    </div>
+    
+      <!-- Projects Highlights-->
+    <div id="profile-projects" class="w3-container w3-padding-18">
+        <div class="w3-row w3-center">
 
-    <div class="w3-third">
-      <img src="/assets/images/westmire.jpg" alt="Westmire" style="width:100%">
-      <p class="projects">Westmire</p>
-    </div>
+          <div class="w3-third">
+            <img src="/assets/images/westmire.jpg" alt="Westmire" style="width:100%">
+            <h3 class="projects">Westmire</h3>
+          </div>
 
-    <div class="w3-third">
-      <img src="/assets/images/s_laptop-coding.jpg" alt="Development" style="width:100%">
-      <p class="projects">Developers Hub</p>
-    </div>
+          <div class="w3-third">
+            <img src="/assets/images/s_laptop-coding.jpg" alt="Development" style="width:100%">
+            <h3 class="projects">Developers Hub</h3>
+          </div>
 
-    <div class="w3-third">
-      <img src="/assets/images/s_power-plant.jpg" alt="Innovation" style="width:100%">
-      <p class="projects">Business and Innovations</p>
+          <div class="w3-third">
+            <img src="/assets/images/s_power-plant.jpg" alt="Innovation" style="width:100%">
+            <h3 class="projects">Business and Innovations</h3>
+          </div>
+        </div>
+        <!-- See more link -->
+          <a class="btn" href="projects.html"><h4 class="c-button btn-smp">See more projects»</h4></a>
     </div>
-    <a href="projects.html"><h3>See more projects»</h3></a></a>
-    <button onclick="/services.html">See more projects»</button>
-   </div>
-  </div>
   
-  <!-- Contact -->
-  <div id="contact" class="w3-container w3-center w3-padding-32">
-    <h3 class="w3-wide w3-border-left w3-border-green">Leave a message?</h3>
-    <p class="w3-opacity w3-center"><i>Use form below.</i></p>
+    <!-- Contact -->
+    <div id="profile-message" class="w3-container w3-center w3-padding-32">
+        <h3 class="w3-wide w3-border-left w3-border-green">Leave a message?</h3>
+        <p class="w3-opacity w3-center"><i>Use form below.</i></p>
     
-    <!-- contact form -->
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input" type="text" placeholder="Type message" required name="Message">
-      <br>
-      <button class="w3-button w3-black" type="submit">SEND MESSAGE</button>
-    </form>
-  </div>
-  
-  <h2>My Podcasts</h2>
-    <div>
-      <a href="https://podcasts.google.com/fee""""d/aHR0cHM6Ly9hbmNob3IuZm0vcy9lODE0Mjk0OC9wb2RjYXN0L3Jzcw">
-        <img src="https://www.gstatic.com/podcasts_console/promote/English_EN/EN_Google_Podcasts_Badge.svg" width="150" height="38" alt="Listen on Google Podcasts">
-      </a>
+        <!-- contact form -->
+        <div>
+          <form action="/action_page.php" target="_blank">
+            <input class="w3-input" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input" type="text" placeholder="Email" required name="Email">
+            <input class="w3-input" type="text" placeholder="Type message" required name="Message">
+            <br>
+            <button class="w3-button w3-green" type="submit">Snd Message</button>
+          </form>
+        </div>
     </div>
     
-    <div>
-      <h2>Follow me on Social Media</h2>
-      <ul>
-        <i class="fa fa-facebook fa-lg"></i><a href="https://www.facebook.com/simonpeters.sakpla"><span class="social"> Facebook</span></a>
-        <a href="https://www.twitter.com/simonpetersgh"><span class="social">Twitter</span></a>
-        <a href="https://www.instagram.com/simonpeters.gh"><span class="social">Instagram</span></a>
-        <a href="https://www.linkedin.com/in/ssakpla"><span class="social">LinkedIn</span></a>
-        <a href="https://github.com/spbureau"><span>GitHub</span></a>
-      </ul>
-    </div>
+    <!-- Featured  -->
+    <div class="w3-container">
+      <div class="w3-wide w3-border-left w3-border-red w3-red">
+        <h3>Featured</h3>
+      </div>
+      <!-- Podcast -->
+      <div>
+        <h2>My Podcasts</h2>
+        <div>
+          <a href="https://podcasts.google.com/fee""""d/aHR0cHM6Ly9hbmNob3IuZm0vcy9lODE0Mjk0OC9wb2RjYXN0L3Jzcw">
+          <img src="https://www.gstatic.com/podcasts_console/promote/English_EN/EN_Google_Podcasts_Badge.svg" width="150" height="38" alt="Listen on Google Podcasts">
+          </a>
+        </div>
+      </div>
     
+      <!-- Youtube -->
+      <div>
+        <!-- Embed code -->
+      </div>
+    </div>
+    <!-- Main Content ends here -->
+    
+    <a href="#profile" class="w3-right"><span>Back to top</span><i class="fa fa-arrow-circle-up w3-xxlarge" style="color: white"></i></a>
+    <!-- Footer below-->
     <footer>
-      <i class="fa-solid fa-phone-call"></i>
+      <h3 style="color: silver">Quick Links</h3>
+      <!-- Social media handles -->
+      <div>
+        <p>Follow me on Social Media</p>
+        <ul>
+          <i class="fa fa-facebook fa-lg"></i><a href="https://www.facebook.com/simonpeters.sakpla"><span class="social"> Facebook</span></a>
+          <a href="https://www.twitter.com/simonpetersgh"><span class="social">Twitter</span></a>
+          <a href="https://www.instagram.com/simonpeters.gh"><span class="social">Instagram</span></a>
+          <a href="https://www.linkedin.com/in/ssakpla"><span class="social">LinkedIn</span></a>
+          <a href="https://github.com/spbureau"><span>GitHub</span></a>
+         </ul>
+      </div>
+      <i class="fa fa-phone"></i>
       <!-- <i class=""></i> -->
-      <a href="https://t.me/233540228056"><i class="fa-solid fa-paper-plane fa-beat-fade fa-lg"></i><span> Telegram</span></a>
+      <a href="https://t.me/233540228056"><i class="fa-solid fa-paper-plane fa-beat-fade"></i><span> Telegram</span></a>
       
       <i class="fa-solid fa-circle-exclamation fa-bounce fa-lg"></i><span> More  Info</span>
     </footer>
-    
-    <!--  Content ends here -->
    </div>
+   <!-- Body ends -->
 </body>
 
 </html>
