@@ -8,6 +8,7 @@
   <link href="styles.css" rel="stylesheet"/>
   <script src="scripts.js"></script>
   <!-- External Styles and Libs-->
+  <!-- W3 Schools -->
   <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
   <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!-- Font Awesome -->
@@ -53,13 +54,15 @@
       <div class="w3-teal">
         <button class="w3-button w3-teal w3-xxlarge w3-hide-large" onclick="w3_open()">&#9776; <span>SP Bureau</span></button>
     </div>
-  <main>
+  <div>
     <!-- Start Content -->
     <div id="home" class="w3-content">
-
-      <!-- Image -->
-      <img src="/assets/images/img_la-w3s.jpg" alt="The Band" style="width:100%">
-      <!-- End Content -->
+      <!-- Slideshow -->
+    <img class="profile" src="assets/images/memories.jpg" width="100%" alt="Memories">
+    <img class="profile" src="assets/images/kpc.jpg" width="100%" alt="The Band, W3School">
+    <img class="profile" src="assets/images/quote-jcm.jpg" width="100%" alt="John C. Maxwell">
+    
+      
     </div>
     <!-- Projects Highlights-->
   <div id="projects" class="w3-container w3-padding-18">
@@ -82,7 +85,8 @@
     <button onclick="/services.html">See more projects»</button>
    </div>
   </div>
-  </main>
+  <!-- Main Content Div ends-->
+  </div>
   <!-- Scripts -->
   <footer>
     <div class="socials">
@@ -92,6 +96,9 @@
       <i class="fa fa-telegram"></i>
     </div>
   </footer>
+  <script>
+    w3.slideshow(".profile", 4000);
+  </script>
 </body>
 
 </html>

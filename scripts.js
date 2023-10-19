@@ -3,6 +3,10 @@
 
 // Global User Account Variables/Objects
 
+// Slideshow
+
+w3.slideshow(".profile", 3500);
+
 // Navigation Menu functions
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";

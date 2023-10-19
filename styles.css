@@ -36,10 +36,18 @@ a {
   text-decoration: none;
 }
 
+/* Unique Id styles*/
+
 #welc_img, .photo-about {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+#services-header {
+  color: darkcyan;
+  font-family: "Concert One", sans-serif;
+  font-size: 40px;
 }
 
 .container {
@@ -153,3 +161,7 @@ div {
 .about-nav {
   margin: -5px;
 }
+
+/* Page Specific Styles*/
+
+/* Services*/
