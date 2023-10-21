@@ -1,11 +1,36 @@
-/* */
+/*
+backgrounds: cce0ff 99c2ff #ceff
+fore: #003380 001a4d 4d88ff
 
+*/
+body {
+  background-color: #99c2ff;
+}
+
+h2 {
+  color: blue;
+}
 #intro {
   font-family: "Concert One", sans-serif;
-  color: midnightblue;
+  color: #001a4d;
   font-size: 30px;
 }
 
 .intro {
   background: #ccebff;
+}
+
+.hl-1 {
+  
+}
+.hl-cta {
+  font-size: 12px;
+}
+
+.hl-container {
+  background-color: #ceff;
+  color: white;
+  border-style: block;
+  border-color: white;
+  border-radius: 20px;
 }
