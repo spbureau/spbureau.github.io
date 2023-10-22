@@ -10,6 +10,19 @@ body {
 h2 {
   color: blue;
 }
+
+p {
+  color: black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  background-color: #ccebff;
+  text-decoration: none;
+}
+
 #intro {
   font-family: "Concert One", sans-serif;
   color: #001a4d;
@@ -23,14 +36,37 @@ h2 {
 .hl-1 {
   
 }
+
 .hl-cta {
   font-size: 12px;
 }
 
 .hl-container {
-  background-color: #ceff;
   color: white;
   border-style: block;
   border-color: white;
   border-radius: 20px;
+}
+
+.hlc-1 {
+  color: #4d4dff;
+  background-color: #ceff;
+}
+
+.hlc-2 {
+  color: darkblue;
+}
+
+.hlc-3 {
+/*  background-color: #1ad1ff; */
+  color: darkblue;
+  background-color: #66d9ff;
+}
+
+#img-hl-3 {
+  border-radius: 15%;
+}
+
+.get-to-know-us {
+  color: #000099;
 }
