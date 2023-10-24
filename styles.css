@@ -3,8 +3,8 @@ backgrounds: cce0ff 99c2ff #ceff
 fore: #003380 001a4d 4d88ff
 
 */
-body {
-  background-color: #99c2ff;
+.body {
+  background-color: #e6faff;
 }
 
 h2 {

@@ -4,11 +4,186 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>About us</title>
+  <!-- Local Links -->
+  <link href="styles.css" rel="stylesheet" />
+  <!-- External Links: Online -->
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- W3.CSS -->
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bb0b7468de.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet'>
 </head>
-
+ <!-- Body Section -->
 <body>
+  <!-- Navigation Section -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <!-- Logo and head name -->
+        <i class="fa fa-code fa-beat" style="font-size: 25px"></i>
+        <span style="font-size: 25px">Sistec Solutions</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html"><i class="fa fa-vcard-o"></i> About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html"><i class="fa fa-laptop"></i> Solutions & Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="our-works.html"><i class="fa fa-gears"></i> Our Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html"><i class="fa fa-users"></i> Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html"><i class="fa fa-newspaper-o"></i> Blog</a>
+          </li>
+        </ul>
+        <!-- Get started button-->
+        <a href="#"><span class="btn btn-outline-light" style="color: white; text-align: center; margin: auto;">Get Started »</span></a>
+        <!-- Contact us button-->
+          <a href="contact-us.html"><span class="btn btn-outline-light" style="color: white; text-align: center; margin: auto;">Contact us <i class="fa fa-paper-plane-o"></i></span></a>
+        <br />
+        <hr />
+        <div class="" style="color: white">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+        <br/>
+        <i>...your development and solutions partner</i>
+      </div>
+      <!-- End on nav-->
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Main Content -->
+  <!-- About us -->
+  <div>
+    <!-- Overview -->
+    <div class="w3-container">
+      <h2>Overview</h2>
+      <p class="overview">Sistec Solutions Limited is a private software development and IT services firm based in Ghana founded by a team of experienced software engineers and business professionals.</p>
+      <p class="overview">Our mission is to lead the way in fast, cost-effective application development and provide superior digital infrastructure services to startups and medium scale enterprises.</p>
+      <p class="overview">At Sistec, we are committed to empowering businesses and organizations to thrive and grow by leveraging innovative and cutting-edge technologies to deliver quality and dependablent, healthcare, finance, manufacturing, non-governmental organizations (NGOs), service organisations and governments agencies.</p>
+      <p class="overview"></p>
+    </div>
+    
+    <!-- Mission, Vison and Values -->
+    <!-- Collapsible| Accordion -->
+    <div id="accordion">
+      <!-- Mission Card -->
+      <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#mission">
+            <h2>Our Mission</h2>
+          </a>
+        </div>
+        <!-- Card Body -->
+        <div id="mission" class="collapse hide" data-bs-parent="#accordion">
+          <div class="card-body">
+            <p>Our mission is to create high-quality and cost-effective software solutions while providing tailored digital infrastructure services to empower startups and medium-sized enterprises, organisation in Ghana. We aim to help them thrive in the digital age through the strategic application of innovative technologies, 
+        enabling their growth and success.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Vision Card -->
+      <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#vision">
+            <h2>Our Vision</h2>
+          </a>
+        </div>
+        <!-- Card Body -->
+        <div id="vision" class="collapse hide" data-bs-parent="#accordion">
+          <div class="card-body">
+            <p>Our vision is to emerge as a premier software engineering and services firm in Ghana, serving a diverse range of industries, enterprises, organizations and government agencies throughout Ghana [and across West Africa]. We are committed to achieving this by delivering cutting-edge solutions, fostering sustainable development, and becoming a driving force behind digital transformation in the region.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Values Card -->
+      <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#values">
+            <h2>Our Core Values</h2>
+          </a>
+        </div>
+        <!-- Card Body -->
+        <div id="values" class="collapse hide" data-bs-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Creativity and Innovations</li>
+              <li>Diversity and Inclusion in work environment</li>
+              <li>Teamwork and Professional Excellence</li>
+              <li>Customer-focused services</li>
+              <li>Agility and Continuous Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End of all cards -->
+    </div>
+    <!-- End of MVV Section -->
+    <br/>
+    <!-- Some points -->
+    <center>
+      <div class="spinner-grow text-dark spinner-grow-sm"></div>
+      <div class="spinner-grow text-muted spinner-grow-sm"></div>
+      <div class="spinner-grow text-dark spinner-grow-sm"></div>
+    </center>
+    
+    <!-- Why Choose us-->
+    <div class="w3-container">
+      <h2>Why Choose Us</h2>
+      <img src="/assets/images/s_girl1.jpg" alt="Lady with Laptop" width="100%" height="60%"/>
+      <div> <!-- R1 -->
+        <h4>Rapid Application Development</h4>
+        <p>We pride ourselves on delivering solutions quickly, helping you stay ahead in today's fast-paced business environment.</p>
+      </div>
+      <div> <!-- R2 -->
+        <h4>Experienced technical teams</h4>
+        <p>Our team consists of seasoned professionals with a proven track record in tackling complex technical challenges.</p>
+      </div>
+      <div> <!-- R3 -->
+        <h4>High quality and reliable solutions and services</h4>
+        <p>We are committed to providing top-notch, dependable solutions that you can rely on to meet your business needs consistently.</p>
+      </div>
+      <div> <!-- R4 -->
+        <h4>Superior technical support</h4>
+        <p>Our dedicated support team is always ready to assist you, ensuring a seamless experience and swift issue resolution.</p>
+      </div>
+      <div> <!-- R5 -->
+        <h4>Cost-leadership</h4>
+        <p>We offer competitive pricing without compromising on the quality of our solutions, ensuring you get the best value for your investment.</p>
+      </div>
+      <div> <!-- R6 -->
+        <h4>Trusted by our clients</h4>
+        <p>Our long-standing relationships and client testimonials reflect the trust and satisfaction our clients have in our services.</p>
+      </div>
+    </div>
+    <!-- End of Why choose us -->
+    <br/> <br/>
 
+  </div>
 </body>
-
 </html>
