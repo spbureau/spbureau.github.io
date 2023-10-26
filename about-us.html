@@ -16,6 +16,7 @@
    <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/bb0b7468de.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet'>
@@ -189,7 +190,7 @@
     
     <!-- Some Technologies we use -->
     <div class="container">
-      <h3>Some technologies use</h3>
+      <h3>Some technologies we use</h3>
       <!-- Images & Logos -->
       <div>
         <img src="/assets/images/logo-aws.png" class="logo" alt="Logo" />
@@ -214,7 +215,7 @@
     
     <!-- Our Team -->
     <div class="container the-team">
-      <h3>Our Team - Core Members</h3>
+      <h3>Meet Our Team</h3>
       <!-- Slideshow of members (7) -->
       <!-- Carousel --> <!-- Carousel -->
       <div id="our-team" class="carousel slide" data-bs-ride="carousel">
@@ -232,61 +233,70 @@
       
         <!-- The slides/carousels -->
         <div class="carousel-inner">
-          <!-- Slide One - Team Photo -->
+          <!-- Slide 1 - Team Photo -->
           <div class="carousel-item active">
             <center>
               <img src="/assets/images/memories.jpg" alt="Los Angeles" class="d-block w-100">
               <h4>Meet Our Core Members</h4>
+              <p><i>Tap on slide or photo to see profile»</i></p>
             </center>
           </div>
-          <!-- Slide 1 -->
+          <!-- Slide 2 - CTO  -->
+          <a href="#about-simon" data-bs-toggle="offcanvas">
           <div class="carousel-item">
             <center>
               <img src="/assets/images/photo-sp.jpg" alt="Los Angeles" class="d-block w-10 team-photo">
               <h4>Simon Peters Sakpla</h4>
-              <h3>Chief Technology Officer, Team Lead</h3>
+              <h3>Chief Technology Officer</h3>
             </center>
-          </div>
-          <!-- Slide 2 -->
+          </div></a>
+          
+          <!-- Slide 3 | BDM -->
+          <a href="#about-agyei" data-bs-toggle="offcanvas">
           <div class="carousel-item">
             <center>
               <img src="/assets/images/photo-agyei.jpg" alt="Chicago" class="d-block w-10 team-photo">
               <h4>Albert  S. Abraham</h4>
               <h3>Business Development & Marketing Officer</h3>
             </center>
-          </div>
-          <!-- Slide 3 -->
-          <div class="carousel-item">
+          </div></a>
+          
+          <!-- Slide 4 | PM -->
+          <a href="#about-blay" data-bs-toggle="offcanvas"><div class="carousel-item">
             <center>
               <img src="/assets/images/photo-blay.jpg" alt="New York" class="d-block w-10 team-photo">
-              <h4>Blessing Tsidi</h4>
+              <h4>Blessing Blay</h4>
               <h3>Products Manager</h3>
             </center>
-          </div>
-          <!-- Slide 4 -->
-          <div class="carousel-item">
+          </div></a>
+          <!-- Slide 5 | FO -->
+          <a href="#about-sammy" data-bs-toggle="offcanvas"><div class="carousel-item">
             <center>
               <img src="/assets/images/photo-sammy.jpg" alt="New York" class="d-block w-10 team-photo">
               <h4>Samuel Obo</h4>
               <h3>Finance Officer</h3>
             </center>
-          </div>
-          <!-- Slide 5 -->
-          <div class="carousel-item">
+          </div></a>
+          <!-- Slide 6 | PeM -->
+          <a href="#about-jules" data-bs-toggle="offcanvas">
+            <div class="carousel-item">
             <center>
               <img src="/assets/images/photo-jules.jpg" alt="Julienne's Photo" class="d-block w-10 team-photo">
-              <h4>Julienne Atiso</h4>
+              <h4>Lady Julie</h4>
               <h3>Personnel Manager</h3>
             </center>
-          </div>
-          <!-- Slide 6 -->
-          <div class="carousel-item">
-            <center>
-              <img src="/assets/images/photo-ernest.jpg" alt="Ernest's Photo" class="d-block w-10 team-photo">
-              <h4>Ernest G. Asare</h4>
-              <h3>Logistics Officer</h3>
-            </center>
-          </div>
+            </div>
+          </a>
+          <!-- Slide 7 | LO -->
+          <a href="#about-ernest" data-bs-toggle="offcanvas">
+            <div class="carousel-item">
+              <center>
+                <img src="/assets/images/photo-ernest.jpg" alt="Ernest's Photo" class="d-block w-10 team-photo">
+                <h4>Ernest G. Asare</h4>
+                <h3>Logistics Officer</h3>
+              </center>
+            </div>
+            </a>
         </div> <!-- All Slides ends -->
       
         <!-- Left and right controls/icons -->
@@ -301,9 +311,100 @@
     </div> <!-- Our teams section ends -->
     <br/>
     
+    <!-- Get started button -->
+    <a href="index.html#our-story" class="container"><button class="btn btn-primary">Watch our story</button></a>
     
+    <!-- Button to open the offcanvas sidebar -->
+    <!-- Button to open the offcanvas sidebar -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#about-simon">
+    Open Offcanvas Sidebar
+  </button>
     <br/> <br/>
+    
+  <!-- About Team Information -->
+  
+  <!-- Offcanvas Sidebars -->
+  
+  <!-- About Ernest -->
+<div class="offcanvas offcanvas-start" id="about-ernest">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
 
+<!-- About Julienne - Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="about-jules">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+  <!-- About Sammy - Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="about-sammy">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+<!-- About Blay - Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="about-blay">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+<!-- About Agyei - Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="about-agyei">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+  <!-- About Simon - Offcanvas Sidebar-->
+  <div class="offcanvas offcanvas-start"id="about-simon">
+    <div class="offcanvas-header w3-teal">
+      <h2 class="offcanvas-title">About Simon Sakpla</h2>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Simon Sakpla is a Business Administration student at the Kwame Nkrumah University of Science and Technology (KNUST) in Ghana, majoring in Business Information Technology. He is passionate about learning and exploring opportunities to develop his expertise in building a progressive career.</p>
+      <p>In addition to his academic and professional pursuits, Simon is also involved in a number of extracurricular activities. He is a member of the KNUST Entrepreneurship Club and the KNUST Computer Science Club. He is also a volunteer at the local orphanage.</p>
+      <p>Simon loves to explore to get things done. He likes spending time with friends and loved ones at free times.</p>
+      <p>He is the founder and team lead of Sistec Solutions Limited and associates.</p>
+      <a href="mailto: simonpetersonline@gmail.com"><button class="btn btn-secondary" type="button">Email <i class="fi fi-sr-envelope"></i></button></a>
+      
+    </div>
+  </div>
   </div>
 </body>
 </html>
