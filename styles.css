@@ -70,3 +70,28 @@ a:hover, a:active {
 .get-to-know-us {
   color: #000099;
 }
+
+/*  Special Styles*/
+
+/* About us*/
+
+.logo {
+  width: 20%;
+  height: 20%;
+}
+
+.the-team {
+  background-color: #ccebff;
+}
+.team-photo {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.slide-indicators {
+  color: black;
+}
+.slide-icons {
+  color: red;
+}
