@@ -97,7 +97,7 @@
     </div>
     <!-- Contact Form -->
     <div class="container pt-10">
-      <form action="/action_page.php">
+      <form action="/contact-us.php" method="GET">
         <h3>Fill out our contact form a d we will get in touch.</h3>
         <div class="mb-3 mt-3">
           <label for="name" class="form-label">Name: *</label>
@@ -149,13 +149,42 @@
         <label for="comment">Tell us about your project:</label>
         <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
         <br/>
+        <!-- Submit button -->
         <div style="text-align: right">
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactUsFormModa">Submit</button>
         </div>
-        
       </form>
     </div>
     <!-- Form ends -->
     <br/> <br/>
-  </div>
+    
+    <!-- Popup action on submit -->
+    <!-- The Modal -->
+    <div class="modal fade" id="contactUsFormModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header w3-green">
+            <h4 class="modal-title">Form submitted successfully!</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <h4>Thanks for contacting us, <?php echo $_POST["name"]; ?></h4>
+            <br>
+            <h4>We'll get in touch in less than 24 hours!</h4>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div> <!-- Main body div-->
 </html>
