@@ -1,0 +1,28 @@
+<div class="fa-3x">
+  <i class="fa-solid fa-compact-disc fa-flip"></i>
+  <i class="fa-solid fa-camera-rotate fa-flip"></i>
+  <i class="fa-solid fa-cassette-tape fa-flip"></i>
+  <i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;" ></i>
+  <i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;" ></i>
+</div>
+
+// Horizon. Scrolling Carssf
+<div class="container-fluid py-2">
+    <h2>Bootstrap 5: Horizontally scrolling cards with a "sticky" card</h2>
+    <div class="d-flex flex-row flex-nowrap bg-warning">
+        <div class="card sticky-card bg-info">Sticky Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+        <div class="card card-body m-2">Card</div>
+    </div>
+</div>
